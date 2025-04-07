@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlipMagic - Convert Images to Stunning Flipbooks</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <span class="flip">Flip</span><span class="magic">Magic</span>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#how-it-works">How It Works</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#" class="btn btn-outline">Login</a></li>
+                </ul>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Transform Your Images into Interactive Flipbooks</h1>
+                <p class="subtitle">Engage your audience with realistic page-flipping effects in just minutes</p>
+                <div class="cta-buttons">
+                    <a href="#" class="btn btn-primary">Start Free Trial</a>
+                    <a href="#" class="btn btn-secondary">See Demo</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://via.placeholder.com/600x400" alt="Flipbook example" class="floating">
+            </div>
+        </div>
+    </section>
+
+    <section class="upload-section">
+        <div class="container">
+            <div class="upload-box">
+                <h2>Convert Your Images Now</h2>
+                <p>Drag & drop your images or PDF to create your flipbook</p>
+                <div class="upload-area" id="uploadArea">
+                    <i class="fas fa-cloud-upload-alt"></i>
+                    <p>Drag & Drop your files here</p>
+                    <span>or</span>
+                    <input type="file" id="fileInput" accept="image/*,.pdf" multiple>
+                    <label for="fileInput" class="btn btn-outline">Browse Files</label>
+                </div>
+                <div class="supported-formats">
+                    <p>Supported formats: JPG, PNG, PDF</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title">Powerful Features</h2>
+            <p class="section-subtitle">Everything you need to create stunning flipbooks</p>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Responsive Design</h3>
+                    <p>Your flipbooks look great on any device - desktop, tablet, or mobile.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-share-alt"></i>
+                    </div>
+                    <h3>Easy Sharing</h3>
+                    <p>Share your flipbooks via link, social media, or embed them on your website.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Analytics</h3>
+                    <p>Track views, time spent, and other engagement metrics for your flipbooks.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-cog"></i>
+                    </div>
+                    <h3>Customization</h3>
+                    <p>Customize colors, buttons, and other elements to match your brand.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <h3>Security</h3>
+                    <p>Password protection and private sharing options for sensitive content.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-download"></i>
+                    </div>
+                    <h3>Offline Access</h3>
+                    <p>Download your flipbooks as HTML or executable files for offline viewing.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="how-it-works" class="how-it-works">
+        <div class="container">
+            <h2 class="section-title">How It Works</h2>
+            <p class="section-subtitle">Create your flipbook in just 3 simple steps</p>
+            
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Upload Your Files</h3>
+                    <p>Upload images or PDFs from your computer or cloud storage.</p>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>Customize & Enhance</h3>
+                    <p>Add interactive elements, customize the design, and set preferences.</p>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Publish & Share</h3>
+                    <p>Publish your flipbook and share it with your audience.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <h2 class="section-title">Simple, Transparent Pricing</h2>
+            <p class="section-subtitle">Choose the plan that fits your needs</p>
+            
+            <div class="pricing-cards">
+                <div class="pricing-card">
+                    <h3>Starter</h3>
+                    <div class="price">$9<span>/month</span></div>
+                    <ul class="features-list">
+                        <li>10 Flipbooks</li>
+                        <li>100 MB Storage</li>
+                        <li>Basic Analytics</li>
+                        <li>Email Support</li>
+                    </ul>
+                    <a href="#" class="btn btn-outline">Get Started</a>
+                </div>
+                
+                <div class="pricing-card featured">
+                    <div class="popular-badge">Most Popular</div>
+                    <h3>Professional</h3>
+                    <div class="price">$29<span>/month</span></div>
+                    <ul class="features-list">
+                        <li>50 Flipbooks</li>
+                        <li>1 GB Storage</li>
+                        <li>Advanced Analytics</li>
+                        <li>Priority Support</li>
+                        <li>Custom Domain</li>
+                    </ul>
+                    <a href="#" class="btn btn-primary">Get Started</a>
+                </div>
+                
+                <div class="pricing-card">
+                    <h3>Enterprise</h3>
+                    <div class="price">$99<span>/month</span></div>
+                    <ul class="features-list">
+                        <li>Unlimited Flipbooks</li>
+                        <li>10 GB Storage</li>
+                        <li>Advanced Analytics</li>
+                        <li>24/7 Support</li>
+                        <li>API Access</li>
+                        <li>White Label</li>
+                    </ul>
+                    <a href="#" class="btn btn-outline">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2 class="section-title">What Our Customers Say</h2>
+            <p class="section-subtitle">Trusted by thousands of creators worldwide</p>
+            
+            <div class="testimonial-slider">
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <p>"FlipMagic has transformed how we present our catalogs. The page flip effect makes our products look more appealing and has increased engagement by 40%."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://via.placeholder.com/50" alt="Sarah Johnson">
+                        <div>
+                            <h4>Sarah Johnson</h4>
+                            <p>Marketing Director, StyleTrend</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <p>"As a photographer, I needed a way to showcase my portfolio professionally. FlipMagic made it easy to create a stunning flipbook that impresses all my clients."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://via.placeholder.com/50" alt="Michael Chen">
+                        <div>
+                            <h4>Michael Chen</h4>
+                            <p>Professional Photographer</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <p>"The analytics feature helps us understand how readers interact with our digital magazines. We've optimized our content based on these insights."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://via.placeholder.com/50" alt="Emma Rodriguez">
+                        <div>
+                            <h4>Emma Rodriguez</h4>
+                            <p>Editor, Urban Life Magazine</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="container">
+            <h2>Ready to Create Your First Flipbook?</h2>
+            <p>Join thousands of satisfied users who are creating stunning flipbooks with FlipMagic</p>
+            <a href="#" class="btn btn-primary btn-large">Start Free 14-Day Trial</a>
+            <p class="small-text">No credit card required. Cancel anytime.</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="logo">
+                        <span class="flip">Flip</span><span class="magic">Magic</span>
+                    </div>
+                    <p>Transforming images into interactive experiences since 2023.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Product</h4>
+                    <ul>
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Examples</a></li>
+                        <li><a href="#">Updates</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Tutorials</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">API Docs</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2023 FlipMagic. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
